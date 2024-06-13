@@ -102,3 +102,18 @@ function reverse(){
         }
     }
     btn55.addEventListener('click', armstrong);
+    const btn66 = document.getElementById("btn6");
+    const result66 = document.getElementById("result6");
+    
+    function fib() {
+        let a = 0, b = 1;
+        let sequence = "";
+        for (let i = 0; i <= 30; i++) {
+            sequence += a + ", ";
+            let temp = a + b;
+            a = b;
+            b = temp;
+        }
+        result66.textContent = sequence;
+    }
+    btn66.addEventListener('click', fib);
