@@ -1,0 +1,94 @@
+body{
+    background-color:rgb(224, 230, 233);
+}
+.head{
+    background-color: #333;
+    color: #fff;
+    
+    text-align: center;
+    left: 0%;
+    right: 0%;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 10%;
+}
+.first {
+    border-radius: 5px;
+    background-color: #74f064;
+    position: absolute;
+    left: 2%;
+    right: 2%;
+    top: 15%;
+    width: 30%;
+    height: 30%;
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Add transition for smooth effect */
+}
+
+.first:hover {
+    transform: translateY(-10px); /* Move the element up by 10px on hover */
+    box-shadow: 0 0 15px 5px rgba(116, 240, 100, 0.7); /* Add glow effect */
+}
+
+
+.second{
+    border-radius: 5px;
+    position:absolute;
+    left: 35%;
+    right: 2%;
+    top: 15%;
+    width: 30%;
+    height: 30%;
+    background-color: rgb(236, 136, 13);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.second:hover {
+    transform: translateY(-10px); /* Move the element up by 10px on hover */
+    box-shadow: 0 0 15px 5px rgba(236, 136, 13); /* Add glow effect */
+}
+.Third{
+    border-radius: 5px;
+    position:absolute;
+    left: 68%;
+    right: 2%;
+    top: 15%;
+    width: 30%;
+    height: 30%;
+    background-color: rgba(119, 229, 236, 0.979);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.Third:hover {
+    transform: translateY(-10px); /* Move the element up by 10px on hover */
+    box-shadow: 0 0 15px 5px rgba(119, 229, 236, 0.979); /* Add glow effect */
+}
+
+.forth{
+    border-radius: 5px;
+    position: absolute;
+    left: 2%;
+    right: 2%;
+    top: 50%;
+    width: 30%;
+    height: 30%;
+    background-color: lightpink;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.forth:hover {
+    transform: translateY(-10px); /* Move the element up by 10px on hover */
+    box-shadow: 0 0 15px 5px lightpink; /* Add glow effect */
+}
+.fifth{
+    border-radius: 5px;
+    position: absolute;
+    left: 35%;
+    right: 2%;
+    top: 50%;
+    width: 30%;
+    height: 30%;
+    background-color:darkgray;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.fifth:hover {
+    transform: translateY(-10px); /* Move the element up by 10px on hover */
+    box-shadow: 0 0 15px 5px darkgray; /* Add glow effect */
+}
