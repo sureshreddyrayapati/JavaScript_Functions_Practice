@@ -1,6 +1,5 @@
 //-----------------Odd Even number-----------------------------
 const tbuser = document.getElementById("tbuser");
-const btn = document.getElementById("btn");
 const result = document.getElementById("result");
 const validt1=document.getElementById('validt');
 function MyFunction(){
@@ -20,13 +19,10 @@ function MyFunction(){
                 validt1.textContent=" ";
             }
         }
-        btn.addEventListener('click',MyFunction);
 //-----------------------------reverse of a number---------------------------------
-const revser = document.getElementById("rev");
-        const btn11 = document.getElementById("btn1");
+        const revser = document.getElementById("rev"); 
         const result11 = document.getElementById("result1");
         const validta = document.getElementById('validt1');
-
         function reverse() {
             let num = revser.value;
 
@@ -39,10 +35,9 @@ const revser = document.getElementById("rev");
                 validta.textContent = '';
             }
         }
-        btn11.addEventListener('click', reverse);
+      
 //---------------------------prime number--------------------------------------------
         const primenum=document.getElementById("prime");
-        const btn33=document.getElementById("btn3");
         const result33=document.getElementById("result3");
         const validtb=document.getElementById('validt2');
          function PrimeNumber(){
@@ -70,10 +65,8 @@ const revser = document.getElementById("rev");
                 }
             }
          }
-         btn33.addEventListener('click',PrimeNumber);
 //---------------------------factorial of a number-----------------------------------------------
          const fact=document.getElementById("fact");
-         const btn44=document.getElementById("btn4");
          const result44=document.getElementById("result4");
          const validtc=document.getElementById('validt3');
          function factorial()
@@ -108,10 +101,8 @@ const revser = document.getElementById("rev");
                 }
             }
         }
-    btn44.addEventListener('click',factorial);
 //------------------------------armstrong number---------------------------------------
     const arm = document.getElementById("arm");
-    const btn55 = document.getElementById("btn5");
     const result55 = document.getElementById("result5");
     const validtd = document.getElementById('validt4');
     function armstrong() 
@@ -149,11 +140,8 @@ const revser = document.getElementById("rev");
             }
         }
     }
-    btn55.addEventListener('click', armstrong);
 //-----------------------fib series---------------------------------------------
-    const btn66 = document.getElementById("btn6");
     const result66 = document.getElementById("result6");
-    
     function fib() {
         let a = 0, b = 1;
         let sequence = "";
@@ -165,4 +153,3 @@ const revser = document.getElementById("rev");
         }
         result66.textContent = sequence;
     }
-    btn66.addEventListener('click', fib);

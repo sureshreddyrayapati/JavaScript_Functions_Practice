@@ -22,7 +22,7 @@
         <h1>Even Odd</h1>
         <label for="tuser">Enter a number</label>
         <input type="number" id="tbuser"class="b" maxlength="10" style="width: 70px;">
-        <button id="btn" class="b1">Ok</button>
+        <button id="btn" class="b1" onclick=" MyFunction()">Ok</button>
         <br>
         <p id="result" style="font-weight: bold;"></p>
         <p class="error" id="validt"></p>
@@ -33,7 +33,7 @@
         <h1>Reverse Number</h1>
         <label for="rev">Enter a number</label>
         <input type="number" id="rev" maxlength="10" class="b" style="width: 70px;">
-        <button id="btn1" class="b1">Ok</button>
+        <button id="btn1" class="b1" onclick="reverse()">Ok</button>
         
         <br>
         <p id="result1"style="font-weight: bold;"></p>
@@ -45,7 +45,7 @@
         <h1>Prime Number</h1>
         <label for="prime">Enter a number</label>
         <input type="number" id="prime" class="b" maxlength="10" style="width: 70px;">
-        <button id="btn3" class="b1">Ok</button>
+        <button id="btn3" class="b1" onclick="PrimeNumber()">Ok</button>
         <br>
         <p id="result3" style="font-weight: bold;"></p>
         <p class="error" id="validt2"></p>
@@ -56,7 +56,7 @@
         <h1>Factorial</h1>
         <label for="fact">Enter a number</label>
         <input type="number" id="fact"class="b" maxlength="10" style="width: 70px; ">
-        <button id="btn4" class="b1">Ok</button>
+        <button id="btn4" onclick="factorial()" class="b1">Ok</button>
         <br>
         <p id="result4" style="font-weight: bold;"></p>
         <p class="error" id="validt3"></p>
@@ -67,7 +67,7 @@
         <h1>Armstrong Number</h1>
         <label for="arm">Enter a number</label>
         <input type="number" id="arm" maxlength="10"class="b" style="width: 70px; ">
-        <button id="btn5" class="b1">Ok</button>
+        <button id="btn5" onclick="armstrong()" class="b1">Ok</button>
         <br>
         <p id="result5" style="font-weight: bold;"></p>
         <p class="error" id="validt4"></p>
@@ -76,7 +76,7 @@
 <div class="six" id="gm">
     <article>
         <h1>Fibonacci Sequence</h1>
-        <button id="btn6" >Generate Sequence</button>
+        <button id="btn6" onclick="fib()">Generate Sequence</button>
         <br>
         <p id="result6" style="font-weight: bold;"></p>
     </article>
