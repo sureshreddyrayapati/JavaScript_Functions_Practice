@@ -12,65 +12,78 @@
     
 </div>
 <div class="hedding">
-    <h3 class="he">Numbers</h3>
+    <h2 class="he">Numbers</h2>
 </div>
 <div class="hedding1">
-    <h3 class="he">Strings</h3>
+    <h2 class="he">Strings</h2>
 </div>
 <div class="first" id="hii">
     <article>
         <h1>Even Odd</h1>
-        <label for="tuser">Enter a number</label>
-        <input type="number" id="tbuser"class="b" maxlength="10" style="width: 70px;">
-        <button id="btn" class="b1" onclick=" MyFunction()">Ok</button>
-        <br>
-        <p id="result" style="font-weight: bold;"></p>
-        <p class="error" id="validt"></p>
+        <ul>
+            <label for="tuser" class="lables">Enter a number</label>
+           
+            <input type="number" id="tbuser"class="b" maxlength="10" style="width: 70px;">
+              
+            <button id="btn" class="b1" onclick=" MyFunction()">Ok</button>
+     
+            <br>
+            <p id="result" style="font-weight: bold;"></p>
+            <p class="error" id="validt"></p>
+        </ul>
     </article>
 </div>
 <div class="second" id="hello">
     <article>
         <h1>Reverse Number</h1>
-        <label for="rev">Enter a number</label>
+        <ul>
+        <label for="rev" class="lables">Enter a number</label>
         <input type="number" id="rev" maxlength="10" class="b" style="width: 70px;">
         <button id="btn1" class="b1" onclick="reverse()">Ok</button>
         
         <br>
         <p id="result1"style="font-weight: bold;"></p>
         <p class="error" id="validt1"></p>
+    </ul>
     </article>
 </div>
 <div class="Third" id="byee">
     <article>
         <h1>Prime Number</h1>
-        <label for="prime">Enter a number</label>
+        <ul>
+        <label for="prime" class="lables">Enter a number</label>
         <input type="number" id="prime" class="b" maxlength="10" style="width: 70px;">
         <button id="btn3" class="b1" onclick="PrimeNumber()">Ok</button>
         <br>
         <p id="result3" style="font-weight: bold;"></p>
         <p class="error" id="validt2"></p>
+    </ul>
     </article>
 </div>
 <div class="forth" id="gn">
     <article>
         <h1>Factorial</h1>
-        <label for="fact">Enter a number</label>
+        <ul>
+        <label for="fact" class="lables">Enter a number</label>
         <input type="number" id="fact"class="b" maxlength="10" style="width: 70px; ">
         <button id="btn4" onclick="factorial()" class="b1">Ok</button>
         <br>
         <p id="result4" style="font-weight: bold;"></p>
         <p class="error" id="validt3"></p>
+    </ul>
     </article>
 </div>
 <div class="fifth" id="gm">
     <article>
         <h1>Armstrong Number</h1>
-        <label for="arm">Enter a number</label>
+        <ul>
+        <label for="arm" class="lables">Enter a number</label>
         <input type="number" id="arm" maxlength="10"class="b" style="width: 70px; ">
         <button id="btn5" onclick="armstrong()" class="b1">Ok</button>
         <br>
         <p id="result5" style="font-weight: bold;"></p>
         <p class="error" id="validt4"></p>
+        </ul>
     </article>
 </div>
 <div class="six" id="gm">
@@ -83,12 +96,26 @@
 </div>
 <div class="string1" id="gm">
     <article>
-        <h1></h1>
-        <label for="revstring">Enter a number</label>
-        <input type="text" id="revstring" maxlength="100" style="width: 70px; ">
-        <button id="btn5">Ok</button>
+        <h1>Upper Letters Converter</h1>
+        <label for="upper" class="lables">Enter a number</label><br>
+        <input type="text" id="upper" maxlength="100" placeholder="type here......" style="width: 250px; height: 60px;" >
+        <br>
+        <button id="btn5" onclick="UpperCase()" class="b1">submit</button>
         <br>
         <p id="r1" style="font-weight: bold;"></p>
+    </article>
+</div>
+<div class="string2">
+    <article>
+        <h1>Reverse String</h1>
+        <ul>
+            <label for="str1" class="lables">Enter some Text</label>
+            <input type="text" id="str1" style="border-radius: 5px; width: 150px; height: 25px;" placeholder="type here......">
+            <button id="btn6" onclick="revString()" class="b1">submit</button>
+            <br>
+            <p id="r2" style="font-weight: bold;"></p>
+            <p class="error" id="validstr1">ssa</p>
+        </ul>
     </article>
 </div>
 <script src="function1.js"></script>

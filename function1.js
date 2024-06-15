@@ -153,3 +153,35 @@ function MyFunction(){
         }
         result66.textContent = sequence;
     }
+
+    const uppers = document.getElementById('upper');
+    const resus = document.getElementById('r1');
+    function UpperCase() {
+        const text1=uppers.value;
+        resus.textContent=text1.toUpperCase();
+    }
+
+    const revstr=document.getElementById('str1');
+    const resstr1=document.getElementById('r2');
+    const valid5=document.getElementById('validstr1');
+    function revString()
+    {
+        const text2=revstr.value;
+        if(text2=="")
+        {
+            resstr1.textContent="";
+            valid5.textContent='The field cannot be empty.'
+        }
+        else
+        {
+            console.log(text2);
+            let sb="";
+            for(var i=text2.length;i>=0;i--){
+            sb=sb+text2.charAt(i);
+            }
+            resstr1.textContent=sb;
+            valid5.textContent=" ";
+        }
+    }
+
+    
