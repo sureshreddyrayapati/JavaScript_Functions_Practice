@@ -156,9 +156,18 @@ function MyFunction(){
 
     const uppers = document.getElementById('upper');
     const resus = document.getElementById('r1');
+    const valilde=document.getElementById('validt5');
     function UpperCase() {
         const text1=uppers.value;
-        resus.textContent=text1.toUpperCase();
+        if(text1==""){
+            resus.textContent="";
+            valilde.textContent="Please enter a string";
+        }
+        else
+        {
+            resus.textContent=text1.toUpperCase();
+            valilde.textContent=' ';
+        }
     }
 
     const revstr=document.getElementById('str1');

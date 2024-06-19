@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="functions1.css">
-    <title>Functions</title>
+    <title>Functions🚉</title>
 </head>
 <body>
 <div class="head">
@@ -97,12 +97,15 @@
 <div class="string1" id="gm">
     <article>
         <h1>Upper Letters Converter</h1>
-        <label for="upper" class="lables">Enter a number</label><br>
-        <input type="text" id="upper" maxlength="100" placeholder="type here......" style="width: 250px; height: 60px;" >
+        <ul>
+        <label for="upper" class="lables">Enter Some Text</label><br>
+        <input type="text" id="upper" maxlength="50" placeholder="type here......" style="width: 250px; height: 50px;" >
         <br>
         <button id="btn5" onclick="UpperCase()" class="b1">submit</button>
         <br>
         <p id="r1" style="font-weight: bold;"></p>
+        <p class="error"  id="validt5"></p>
+    </ul>
     </article>
 </div>
 <div class="string2">
@@ -114,7 +117,17 @@
             <button id="btn6" onclick="revString()" class="b1">submit</button>
             <br>
             <p id="r2" style="font-weight: bold;"></p>
-            <p class="error" id="validstr1">ssa</p>
+            <p class="error" id="validstr1"></p>
+        </ul>
+    </article>
+</div>
+<div class="TD">
+    <article>
+        <h1>Date Function</h1>
+        <ul>
+            <label for="dateT" class="lables">Date and Time</label><br><br>
+            <button id="tdb"  onclick="document.getElementById('tr').textContent=Date().toString()" style="width: fit-content; " class="b1">click me </button>
+            <p id="tr" style="font-weight: bold;"></p>
         </ul>
     </article>
 </div>
