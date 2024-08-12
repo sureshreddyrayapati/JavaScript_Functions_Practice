@@ -140,6 +140,7 @@ function MyFunction(){
             }
         }
     }
+    
 //-----------------------fib series---------------------------------------------
     const result66 = document.getElementById("result6");
     function fib() {
@@ -153,7 +154,10 @@ function MyFunction(){
         }
         result66.textContent = sequence;
     }
-
+    function cler(){
+        result66.textContent = '';
+    }
+//------------------------------------------------------------------------------------
     const uppers = document.getElementById('upper');
     const resus = document.getElementById('r1');
     const valilde=document.getElementById('validt5');
