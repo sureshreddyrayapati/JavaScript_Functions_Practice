@@ -20,8 +20,9 @@ body{
     left: 2%;
     right: 2%;
     top: 18%;
-    width: 30%;
-    height: 30%;
+    padding: 15px;
+    width: 28%;
+    height: 25%;
     transition: transform 0.3s ease, box-shadow 0.3s ease; 
 }
 
@@ -36,8 +37,9 @@ body{
     left: 35%;
     right: 2%;
     top: 18%;
-    width: 30%;
-    height: 30%;
+    padding: 15px;
+    width: 28%;
+    height: 25%;
     background-color: rgb(236, 136, 13);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
@@ -51,8 +53,9 @@ body{
     left: 68%;
     right: 2%;
     top: 18%;
-    width: 30%;
-    height: 30%;
+    padding: 15px;
+    width: 28%;
+    height: 25%;
     background-color: rgba(119, 229, 236, 0.979);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
@@ -67,8 +70,9 @@ body{
     left: 2%;
     right: 2%;
     top: 53%;
-    width: 30%;
-    height: 30%;
+    padding: 15px;
+    width: 28%;
+    height: 25%;
     background-color: lightpink;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
@@ -82,8 +86,9 @@ body{
     left: 35%;
     right: 2%;
     top: 53%;
-    width: 30%;
-    height: 30%;
+    padding: 15px;
+    width: 28%;
+    height: 25%;
     background-color:darkgray;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
@@ -97,8 +102,9 @@ body{
     left: 68%;
     right: 2%;
     top: 53%;
-    width: 30%;
-    height: 30%;
+    padding: 15px;
+    width: 28%;
+    height: 25%;
     background-color:rgb(217, 231, 84);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
@@ -178,8 +184,8 @@ transition: all 100ms ease-in-out;
         left: 2%;
         right: 2%;
         top: 94%;
-        width: 30%;
-        height: 35%;
+        width: 28%;
+        height: 30%;
         background-color:rgb(95, 122, 182);
         transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
@@ -194,8 +200,9 @@ transition: all 100ms ease-in-out;
     left: 35%;
     right: 2%;
     top: 94%;
-    width: 30%;
-    height: 35%;
+    padding: 15px;
+    width: 28%;
+    height: 25%;
     background-color:rgb(56, 202, 11);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
@@ -209,8 +216,9 @@ transition: all 100ms ease-in-out;
     left: 68%;
     right: 2%;
     top: 94%;
-    width: 30%;
-    height: 35%;
+    padding: 15px;
+    width: 28%;
+    height: 25%;
     background-color:rgb(202, 157, 11);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
